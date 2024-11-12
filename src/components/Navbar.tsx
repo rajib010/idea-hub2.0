@@ -3,6 +3,8 @@ import React from 'react';
 import Image from 'next/image';
 import { auth, signOut, signIn } from "@/auth";
 import "@/app/globals.css"
+import { Button } from "@/components/ui/button"
+
 
 const Navbar = async () => {
   const session = await auth();
@@ -27,7 +29,7 @@ const Navbar = async () => {
                   await signOut({ redirectTo: "/" });
                 }}
               >
-                <button type="submit">Log Out</button>
+                <Button variant="destructive" className='bg-red-500 hover:bg-red-700 text-white'>Log Out</Button>
               </form>
 
               <Link href={`/user/${session?.user?.id}`}>
@@ -41,7 +43,7 @@ const Navbar = async () => {
                 await signIn("github");
               }}
             >
-              <button type="submit">Login</button>
+              <Button className='bg-green-500 hover:bg-green-700 text-white' type='submit'>Login</Button>
             </form>
           )}
         </div>
