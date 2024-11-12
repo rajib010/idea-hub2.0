@@ -1,0 +1,29 @@
+[33mcommit e642581caa311987bf92feaa3de03e34387b530f[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: raJiB <pokhrelrajib016@gmail.com>
+Date:   Tue Nov 12 12:26:27 2024 +0545
+
+    integrated card component , finished hero section
+
+[33mcommit f155737755c89aae4a90fac6ad708cc68777f663[m
+Author: raJiB <pokhrelrajib016@gmail.com>
+Date:   Mon Nov 11 18:46:49 2024 +0545
+
+    fixed bugs and implemented search form using next-form
+
+[33mcommit 86d768f6cbb89fa4087a5e224f43cef2136f679d[m
+Author: raJiB <pokhrelrajib016@gmail.com>
+Date:   Mon Nov 11 17:28:27 2024 +0545
+
+    fixed fonts and themes
+
+[33mcommit d61a0bd573eaf2d3f0a4d20e4c065114bba151fa[m
+Author: raJiB <pokhrelrajib016@gmail.com>
+Date:   Sun Nov 10 18:59:07 2024 +0545
+
+    added github login system
+
+[33mcommit 7e85ae6b2d258adbbefaf944d4a1540c59c785ea[m
+Author: raJiB <pokhrelrajib016@gmail.com>
+Date:   Sun Nov 10 17:49:32 2024 +0545
+
+    Initial commit from Create Next App
