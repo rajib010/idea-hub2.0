@@ -2,7 +2,6 @@ import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
 import { auth, signOut, signIn } from "@/auth";
-import "@/app/globals.css"
 import { Button } from "@/components/ui/button"
 
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import "./globals.css";
+import "./index.css";
 import "easymde/dist/easymde.min.css";
 
 const workSans = localFont({
@@ -55,8 +55,8 @@ const workSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Idea Hub 2.0",
-  description: "A platform to present ideas and find startups.",
+  title: "idea Hub",
+  description: "Present your ideas and get funded to carry out them.",
 };
 
 export default function RootLayout({
@@ -66,9 +66,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${workSans.variable} antialiased`}
-      >
+      <body className={workSans.variable}>
         {children}
       </body>
     </html>
