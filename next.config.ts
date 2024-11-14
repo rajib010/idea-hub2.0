@@ -1,23 +1,27 @@
+// next.config.js
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  images:{
-    dangerouslyAllowSVG:true,
-    remotePatterns:[
+  images: {
+    dangerouslyAllowSVG: true,
+    remotePatterns: [
       {
-        protocol:'https',
-        hostname:'*'
-      }
-    ]
+        protocol: 'https',
+        hostname: '*',
+      },
+      {
+        protocol: 'http',
+        hostname: '*', 
+      },
+    ],
   },
-
-  experimental:{
-    after:true
+  experimental: {
+    after: true,
   },
-  devIndicators:{
-    appIsrStatus:true,
-    buildActivity:true,
-    buildActivityPosition:'bottom-right'
+  devIndicators: {
+    appIsrStatus: true,
+    buildActivity: true,
+    buildActivityPosition: 'bottom-right',
   },
 };
 
