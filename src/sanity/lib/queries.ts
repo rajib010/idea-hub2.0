@@ -44,3 +44,14 @@ export const AUTHOR_BY_ID_QUERY = defineQuery(`
 
 export const PLAYLIST_BY_SLUG_QUERY = defineQuery(`
    `)
+
+export const AUTHOR_BY_GITHUBID_QUERY = defineQuery(`
+   *[_type=="author" && id==$id][0]{
+      _id,
+      id,
+      name,
+      username,
+      email,
+      bio,
+      image
+   }`)
